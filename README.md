@@ -1,6 +1,7 @@
 # TrackletGait
 
-This project is based on [OpenGait](https://github.com/ShiqiYu/OpenGait).
+This project is based on [OpenGait](https://github.com/ShiqiYu/OpenGait),  
+with additional dependencies from [torch-dwt](https://github.com/KeKsBoTer/torch-dwt).
 
 Currently, only the modified parts of the code are provided.  
 The full project will be released later after further organization.
