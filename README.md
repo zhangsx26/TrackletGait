@@ -1,7 +1,5 @@
 # TrackletGait
 
-# Project Name
-
 This project is based on [OpenGait](https://github.com/ShiqiYu/OpenGait).
 
 Currently, only the modified parts of the code are provided.  
