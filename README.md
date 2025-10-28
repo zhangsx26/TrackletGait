@@ -1,4 +1,6 @@
-# TrackletGait
+# TrackletGait: A Robust Framework for Gait Recognition in the Wild
+
+Paper [[arXiv](https://arxiv.org/pdf/2508.02143)] [[IEEE](https://ieeexplore.ieee.org/abstract/document/11154018)]
 
 This project is based on [OpenGait](https://github.com/ShiqiYu/OpenGait),  
 with additional dependencies from [torch-dwt](https://github.com/KeKsBoTer/torch-dwt).
