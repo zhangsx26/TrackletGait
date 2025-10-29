@@ -38,10 +38,11 @@ Rank-1	Rank-5	Rank-10	Rank-20
 ---
 
 **Dataset: OU-MVLP**
-~checkpoint~ (temporarily unavailable)
-
+[checkpoint]() (uploading)
 ```
-
+===Rank-1 (Exclude identical-view cases)===
+NM@R1: [90.53 92.57 92.30 92.55 92.75 92.15 92.00 91.93 91.80 91.75 91.91 91.93 91.43 91.34]
+NM@R1: 91.92%
 ```
 ---
 
