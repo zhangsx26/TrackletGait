@@ -1,16 +1,21 @@
 # TrackletGait: A Robust Framework for Gait Recognition in the Wild
 
-Paper [[arXiv](https://arxiv.org/pdf/2508.02143)] [[IEEE](https://ieeexplore.ieee.org/abstract/document/11154018)]
+**Paper** [[arXiv](https://arxiv.org/pdf/2508.02143)] [[IEEE](https://ieeexplore.ieee.org/abstract/document/11154018)]
 
-This project is based on [OpenGait](https://github.com/ShiqiYu/OpenGait),  
-with additional dependencies from [torch-dwt](https://github.com/KeKsBoTer/torch-dwt).
+This project is based on [OpenGait](https://github.com/ShiqiYu/OpenGait), with additional dependencies from [torch-dwt](https://github.com/KeKsBoTer/torch-dwt).
 
-Currently, only the modified parts of the code are provided.  
-The full project will be released later after further organization.
-
+Currently, only the modified parts of the code are provided. ~The full project will be released later after further organization.~
 
 ## Usage
 Replace the files in the original OpenGait project with the ones provided here (overwrite files with the same name).
+
+| File | Description |
+|------|--------------|
+| **`TrackletGait.py`** | Standard version of the TrackletGait model. Uses block configuration **[1, 4, 4, 1]**. Designed for **large-scale datasets** such as *Gait3D*, *GREW*, and *OU-MVLP*. |
+| **`TrackletGait_s.py`** | Small version of the model with block configuration **[0, 1, 1, 0]**. Suitable for **small-scale datasets** such as *CASIA-B*, *CCPG*, and *SUSTech1K*. |
+| **`trackletgait_gait3d.yaml`** | Example configuration file. The `sampler` field under `trainer_cfg` must be used together with **`collate_fn.py`**. |
+| **`collate_fn.py`** | Implements **Random Tracklet Sampling** for sequence sampling within each batch during training, as described in the paper. |
+| **`triplet_HardEx.py`** | Defines the **Hardness Exclusion Triplet Loss**, corresponding to the loss function introduced in the paper. |
 
 
 ## Result and Checkpoint
@@ -24,7 +29,7 @@ Replace the files in the original OpenGait project with the ones provided here (
 ---
 
 **Dataset: GREW**
-[checkpoint]() (uploading)
+[checkpoint](https://drive.google.com/file/d/10TQ8HSD9EJNDecV-0zHVq0rdlxBCt8Y4/view?usp=sharing)
 
 ```
 Rank-1	Rank-5	Rank-10	Rank-20
@@ -38,7 +43,7 @@ Rank-1	Rank-5	Rank-10	Rank-20
 ---
 
 **Dataset: OU-MVLP**
-[checkpoint]() (uploading)
+[checkpoint](https://drive.google.com/file/d/11Ld_5SuE_RIBYIM-Zo_Ik-_xVZhV99kA/view?usp=sharing)
 ```
 ===Rank-1 (Exclude identical-view cases)===
 NM@R1: [90.53 92.57 92.30 92.55 92.75 92.15 92.00 91.93 91.80 91.75 91.91 91.93 91.43 91.34]
