@@ -54,7 +54,7 @@ trainer_cfg:
   total_iter: 120000
   sampler:
     ###
-    method: tracklet_mix_p
+    method: tracklet_mix_p # During the training phase, the random tracklet sampling method is adopted. The following parameters represent the tracklet lengths and their corresponding probabilities.
     sample_tracklet_length:
       - 8
       - 16
@@ -63,7 +63,7 @@ trainer_cfg:
       - 0.2
       - 0.3
       - 0.5  
-    sample_tracklet_step: 1
+    sample_tracklet_step: 1 # 
     ###  
     batch_shuffle: true
     batch_size:
@@ -94,7 +94,7 @@ evaluator_cfg:
   eval_func: evaluate_Gait3D
   sampler:
     ###
-    method: random
+    method: random # During the testing phase, tracklet sampling is not used, so the parameter can be left empty.
     sample_tracklet_length:
       - 0
     sample_tracklet_prob:
