@@ -23,6 +23,23 @@ Replace the files in the original OpenGait project with the ones provided here (
 ```
 ---
 
+**Dataset: GREW**
+[checkpoint]()
+
+```
+Rank-1	Rank-5	Rank-10	Rank-20
+0.8042	0.8975	0.9231	0.9406
+```
+---
+
+**Dataset: OU-MVLP**
+~checkpoint~ (temporarily unavailable)
+
+```
+
+```
+---
+
 **Dataset: CASIA-B**
 [checkpoint](https://drive.google.com/file/d/1wMoltPohD52_Zeogmjx84VaJE5FTafSP/view?usp=sharing)
 
@@ -61,7 +78,7 @@ BG: [88.69 89.54 95.11 96.78 94.33 95.67 92.04 91.44 90.92 94.61]
 
 
 **Dataset: SUSTech1K**
-[checkpoint](**https://drive.google.com/file/d/1_GxxllwDrdRODw6WVZ7YC0zAMINhJmXq/view?usp=sharing**)
+[checkpoint](https://drive.google.com/file/d/1_GxxllwDrdRODw6WVZ7YC0zAMINhJmXq/view?usp=sharing)
 
 (Model: small version. Data: only silhouette)
 ```
