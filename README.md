@@ -24,12 +24,17 @@ Replace the files in the original OpenGait project with the ones provided here (
 ---
 
 **Dataset: GREW**
-[checkpoint]()
+[checkpoint]() (uploading)
 
 ```
 Rank-1	Rank-5	Rank-10	Rank-20
 0.8042	0.8975	0.9231	0.9406
 ```
+[codalab link](https://codalab.lisn.upsaclay.fr/my/competition/submission/868017/detailed_results/)
+
+| Submission Id | User | Phase | Date | Description | Rank-1 | Rank-5 | Rank-10 | Rank-20 | Rank-1 Distractor |
+|----------------|------|--------|------|--------------|---------|---------|----------|----------|--------------------|
+| 868017 | sxzhang | GREW Phase 3 | Dec 10 2024 | TrackletGait | 0.8042 | 0.8975 | 0.9231 | 0.9406 | 0.0000 |
 ---
 
 **Dataset: OU-MVLP**
