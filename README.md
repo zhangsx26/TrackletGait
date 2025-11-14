@@ -121,10 +121,9 @@ Normal@R5: 97.57% Bag@R5: 94.88%  Clothing@R5: 80.72%     Carrying@R5: 92.99%   
   author={Zhang, Shaoxiong and Zheng, Jinkai and Zhu, Shangdong and Yan, Chenggang},
   journal={IEEE Transactions on Multimedia},
   year={2025},
+  volue={27},
+  pages={8875--8887},
   publisher={IEEE}
 }
 ```
 
-```
-Zhang S, Zheng J, Zhu S, et al. TrackletGait: A Robust Framework for Gait Recognition in the Wild[J]. IEEE Transactions on Multimedia, 2025.
-```
